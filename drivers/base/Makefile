@@ -22,6 +22,9 @@ obj-$(CONFIG_SYS_HYPERVISOR) += hypervisor.o
 obj-$(CONFIG_REGMAP)	+= regmap/
 obj-$(CONFIG_SOC_BUS) += soc.o
 obj-$(CONFIG_PINCTRL) += pinctrl.o
+obj-$(CONFIG_DMA_SHARED_BUFFER_TEST_EXPORTER) += dma_buf_test_exporter/
+obj-$(CONFIG_KDS) += kds/
+obj-$(CONFIG_UMP) += ump/
 
 ccflags-$(CONFIG_DEBUG_DRIVER) := -DDEBUG
 

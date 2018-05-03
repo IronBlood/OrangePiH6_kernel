@@ -289,3 +289,7 @@ config CMA_AREAS
 endif
 
 endmenu
+
+source "drivers/base/dma_buf_test_exporter/Kconfig"
+source "drivers/base/kds/Kconfig"
+source "drivers/base/ump/Kconfig"

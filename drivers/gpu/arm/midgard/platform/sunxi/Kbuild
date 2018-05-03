@@ -1,5 +1,5 @@
 #
-# (C) COPYRIGHT 2010-2013 ARM Limited. All rights reserved.
+# (C) COPYRIGHT 2013 ARM Limited. All rights reserved.
 #
 # This program is free software and is provided to you under the terms of the
 # GNU General Public License version 2 as published by the Free Software
@@ -12,10 +12,4 @@
 #
 #
 
-
-
-
-SConscript('arm/sconscript')
-
-if Glob('drm/sconscript'):
-	SConscript('drm/sconscript')
+obj-y += mali_kbase_config_sunxi.o

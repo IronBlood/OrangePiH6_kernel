@@ -1,0 +1,4 @@
+source "drivers/gpu/arm/Kconfig"
+source "drivers/gpu/drm/Kconfig"
+source "drivers/gpu/host1x/Kconfig"
+source "drivers/gpu/vga/Kconfig"
